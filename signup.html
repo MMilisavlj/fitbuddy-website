@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header style="background-color: white; color: #000000;">
+        <a href="index.html"><img src="fitbuddy-logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <a href="about.html">About us</a>
+            <a href="login.html">Login</a>
+            <a href="recommendation.html">Recommendation</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
     <h1>Sign up</h1>
-    <form>
-        <label>First name: <input type="text" required name="firstName" /></label>
-        <br/><br/>
-        <label>Last name: <input type="text" required name="lastName" /></label>
-        <br/><br/>
-        <label>Email: <input type="email" required name="email" /></label>
-        <br/><br/>
-        <label>Password: <input type="password" required name="password" /></label>
-        <br/><br/>
-        <label>Confirm password: <input type="password" required name="password" /></label>
-        <br/><br/>
-        <label>Phone: <input type="number" required name="phone" /></label>
-        <br/><br/>
-        <label>Address: <input type="text" required name="address" /></label>
-        <br/><br/>
-        <button>Sign up</button>
-    </form>
+    <div class="container2">
+        <form>
+            <label>First name: <input type="text" required name="firstName" /></label>
+            <label>Last name: <input type="text" required name="lastName" /></label>
+            <label>Email: <input type="email" required name="email" /></label>
+            <label>Password: <input type="password" required name="password" /></label>
+            <label>Confirm password: <input type="password" required name="confirmPassword" /></label>
+            <label>Phone: <input type="number" required name="phone" /></label>
+            <label>Address: <input type="text" required name="address" /></label>
+            <button class="button2">Sign up</button>
+        </form>
+    </div>
 </body>
 </html>

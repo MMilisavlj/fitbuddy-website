@@ -3,17 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
-    <h1>Login</h1>
-    <form>
-        <label>Email: <input type="text" required name="text"/></label>
-        <br/><br/>
-        <label>Password: <input type="password" requried name="password"/></label>
-        <button>Login</button>
-    </form>
-    <br>
-    <a href="signup.html">New user? Sign up!</a>
+    <header style="background-color: white; color: #000000;">
+        <a href="index.html"><img src="fitbuddy-logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <a href="about.html">About us</a>
+            <a href="login.html">Login</a>
+            <a href="recommendation.html">Recommendation</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
+   
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="button1">Login</button>
+            <a href="signup.html">New user? Sign up!</a>
+        </form>
+    </div>
 </body>
 </html>

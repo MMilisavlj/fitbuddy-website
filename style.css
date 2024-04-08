@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height:80px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+header a svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+header nav {
+    display: flex;
+    margin-left: auto;
+}
+
+header nav a {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(166, 166, 166, 0.615);
+}
+
+/* Main Section Styles */
+/* main {
+    display:
+} */
+
+/* Sections Styles */
+section {
+    width: 100%;
+    padding: 3rem 1rem;
+}
+
+main section div:nth-child(1) h1 {
+    font-size: 3.5rem;
+}
+
+main section div:nth-child(1) {
+    text-align: center;
+}
+
+main section div:nth-child(2) {
+    width: 25%;
+    margin: 0px auto;
+}
+
+main section div:nth-child(2) p {
+    font-size: 0.8rem;
+}
+
+.personalized-section{
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.how-it-works {
+    display: grid;
+    padding: 100px 0px;
+}
+
+.the-perfect-plan{
+    background-color: #1e1145;
+    color: white;
+    padding: 100px 0px;
+}
+
+section h3 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+section p {
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+    color: #666;
+}
+
+/* Form Styles */
+form {
+    width: 100%;
+}
+
+form input[type="email"],
+form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    border: 1px solid #ccc;
+}
+
+/* Button Styles */
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+footer nav {
+    margin-left: auto;
+}
+
+footer nav a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #666;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7960c2;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #634ca6;
+}
+
+.container2 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button2 {
+    width: 100%;
+    padding: 10px;
+    background-color:#7960c2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color:  #634ca6;
+}
+
+
+.container3 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.goal-setting {
+    margin-bottom: 30px;
+}
+
+.goal-setting form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.workout-recommendation,
+.mealplan-recommendation {
+    margin-bottom: 20px;
+}
+
+.workout-recommendation p,
+.mealplan-recommendation p {
+    margin-top: 5px;
+}

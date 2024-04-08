@@ -6,92 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitBuddy</title>
     <link rel="icon" href="fitbuddy-logo.png" type="image/x-icon">
-    <style>
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background-image: url("background-img.jpg");
-            background-repeat: no-repeat;
-        }
-
-        .main-container {
-            height: 100vh;
-            width: 100vw;
-            /* background-color: rgb(255, 255, 255); */
-        }
-
-        .top-panel {
-            float: left;
-            height: 19vh;
-            width: 100%;
-            margin-bottom: 1vh;
-            /* background-color: rgb(255, 254, 255); */
-        }
-
-        .left-panel {
-            float: left;
-            height: 80%;
-            width: 15vw;
-            margin-bottom: 1vh;
-            /* background-color: rgb(248, 136, 198); */
-        }
-
-        .right-panel {
-            float: right;
-            height: 80%;
-            width: 84vw;
-            margin-bottom: 1vh;
-            /* background-color: rgb(181, 145, 224); */
-        }
-
-        /* .nav-bar {
-            float: right;
-        } */
-
-        /* .logo-nav-bar {
-            float: left;
-        } */
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="top-panel">
-            <p class="logo-nav-bar">
-                <a href="index.html">
-                    <img alt="FitBuddy" src="fitbuddy-logo.png" width="120" height="100">
-                </a>
-            </p>
-            <div class="nav-bar">
+    <div>
+        <header style="background-color: white; color: #000000;">
+            <a href="index.html"><img src="fitbuddy-logo.png" alt="logo" class="logo"></a>
+            <nav>
                 <a href="about.html">About us</a>
-                <a href="login.html">Log in</a>
-                <a href="tracking.html">Track your progress</a>
-                <a href="recommendation.html">Get your unique plan</a>
-            </div>
-        </div>
-        <div class="left-panel">
-            <p>About us</p>
-            <p>Our team</p>
-            <p>Our inception</p>
-            <p>Why we do it?</p>
-            <p>Wanna support us?</p>
-            <p>Career at FitBuddy</p>
-            <p>Contact</p>
-        </div>
-        <div class="right-panel">
-            <h1>Have you been struggling achieving your dream body?</h1>
-            <p>Not to worry, we have you covered. Our unique workout and meal plan is curated exactly according to your
-                necessary body type requirement.</p>
-            <br/>
-            <h3>Completely free</h3>
-            <h3>Mentoring by industry professionals</h3>
-            <h3>Over 3000 people have achieved their dream body</h3>
-            <h3>Register now to enjoy the benefits</h3>
-        </div>
+                <a href="login.html">Login</a>
+                <a href="recommendation.html">Recommendation</a>
+                <a href="tracking.html">Tracking</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="personalized-section">
+                <div>
+                    <h1>Personalized Fitness</h1>
+                    <p>
+                        Curated meal plans and exercises tailored to your goals. Lose weight. Build muscle. Feel great.
+                    </p>
+                </div>
+                <div>
+                    <form>
+                        <input placeholder="Enter your email" type="email" />
+                        <button type="submit">
+                            Get Started
+                        </button>
+                    </form>
+                    <p>
+                        Sign up to get notified when we launch.
+                        <a href="terms.html">Terms &amp; Conditions</a>
+                    </p>
+                </div>
+            </section>
+            <section class="how-it-works">
+                <div>
+                    <h1>How It Works</h1>
+                    <p>
+                        Our platform uses your data and provides you with personalized
+
+                        plan for different goals.
+                    </p>
+                </div>
+                <div>
+                    <div>
+                        <h3>1. Answer Questions</h3>
+                        <p>
+                            Tell us about your fitness goals, dietary preferences, and activity level.
+                        </p>
+                        <h3>2. Get Your Plan</h3>
+                        <p>
+                            Your data is analyzed and we generate a personalized plan.
+                        </p>
+                        <h3>3. Track Progress</h3>
+                        <p>
+                            Log your meals and workouts in the app and see your progress over time.
+                        </p>
+                        <h3>4. Expert Guidance</h3>
+                        <p>
+                            Our team of fitness experts is here to support you on your journey.
+                        </p>
+                </div>
+            </section>
+            <section class="the-perfect-plan">
+                <div>
+                    <h1>The Perfect Plan for You</h1>
+                    <p>
+                        Whether you're a beginner looking to get in shape or an athlete training for a marathon, we've
+                        got you
+                        covered.
+                    </p>
+                </div>
+                <div style="text-align: center; line-height: 2rem;">
+                    <h2>Weight Loss</h2> <br>
+                    <h2>Muscle Gain</h2> <br>
+                    <h2>Fat Loss</h2>
+                </div>
+            </section>
+            <section class="meet-out-trainers">
+                <div>
+                    <h1>Meet our Trainers</h1>
+                    <p>
+                        Our team of certified fitness experts is here to guide you every step of the way.
+                    </p>
+                </div>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <div>
+                        <img style="object-fit: cover;" src="https://images.unsplash.com/photo-1550345332-d73a0111ad25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGF0aGxldGV8ZW58MHx8MHx8fDA%3D" width="150" height="150" alt="Trainer" />
+                        <div>
+                            <h3>Sarah Johnson</h3>
+                            <p>Yoga Instructor</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img  style="object-fit: cover;" src="https://images.unsplash.com/photo-1606335543042-57c525922933?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGF0aGxldGV8ZW58MHx8MHx8fDA%3D" width="150" height="150" alt="Trainer" />
+                        <div>
+                            <h3>Mike Smith</h3>
+                            <p>Personal Trainer</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img  style="object-fit: cover;" src="https://images.unsplash.com/photo-1488474739786-757973c2dff6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGF0aGxldGV8ZW58MHx8MHx8fDA%3D" width="150" height="150" alt="Trainer" />
+                        <div>
+                            <h3>Emily Wong</h3>
+                            <p>Nutritionist</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img  style="object-fit: cover;" src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF0aGxldGV8ZW58MHx8MHx8fDA%3D" width="150" height="150" alt="Trainer" />
+                        <div>
+                            <h3>Alex Lee</h3>
+                            <p>CrossFit Coach</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 FitBuddy Inc. All rights reserved.</p>
+            <nav>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy</a>
+            </nav>
+        </footer>
     </div>
+
 </body>
 
 </html>

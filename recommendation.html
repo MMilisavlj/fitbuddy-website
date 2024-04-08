@@ -3,37 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unique workout and meal plan</title>
+    <title>Unique Workout and Meal Plan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="goal-setting">
-        <h1>What is your desired outcome?</h1>
-        <p>Choose one of the goals below</p>
-        <form>
-            <input type="radio" name="goal" /><label>Weight Loss</label>
-            <input type="radio" name="goal" /><label>Fat Loss</label>
-            <input type="radio" name="goal" /><label>Weight Gain</label>
-            <input type="radio" name="goal" /><label>Muscle Gain</label>
-            <input type="radio" name="goal" /><label>Overall Fitness</label>
-        </form>
-    </div>
-    <div class="workout-recommendation">
-        <h1>Here is your recommended workout plan</h1>
-        <p>Full Body workout, 4 days a week</p>
-        <p>Day 1: Chest and Back</p>
-        <p>Day 2: Arms and Shoulder</p>
-        <p>Day 3: Legs</p>
-        <p>Day 4: Cardio</p>
-    </div>
-    <div class="mealplan-recommendation">
-        <h1>Here is your curated plean plan</h1>
-        <p>Day 1: Chicken and Rice</p>
-        <p>Day 2: Pasta and Chicken</p>
-        <p>Day 3: Fish and spaghetti</p>
-        <p>Day 4: Rice and vegetables</p>
-        <p>Day 5: Salad</p>
-        <p>Day 6: Potato and Ham</p>
-        <p>Day 7: Steak and Beef</p>
+    <header>
+        <a href="index.html"><img src="fitbuddy-logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <a href="about.html">About us</a>
+            <a href="login.html">Login</a>
+            <a href="recommendation.html">Recommendation</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
+    <div class="container3">
+        <div class="goal-setting">
+            <h1>What is your desired outcome?</h1>
+            <p>Choose one of the goals below</p>
+            <form>
+                <input type="radio" name="goal" id="weight-loss"><label for="weight-loss">Weight Loss</label>
+                <input type="radio" name="goal" id="fat-loss"><label for="fat-loss">Fat Loss</label>
+                <input type="radio" name="goal" id="weight-gain"><label for="weight-gain">Weight Gain</label>
+                <input type="radio" name="goal" id="muscle-gain"><label for="muscle-gain">Muscle Gain</label>
+                <input type="radio" name="goal" id="overall-fitness"><label for="overall-fitness">Overall Fitness</label>
+            </form>
+        </div>
+        <div class="workout-recommendation">
+            <h1>Here is your recommended workout plan</h1>
+            <p>Full Body workout, 4 days a week</p>
+            <p>Day 1: Chest and Back</p>
+            <p>Day 2: Arms and Shoulder</p>
+            <p>Day 3: Legs</p>
+            <p>Day 4: Cardio</p>
+        </div>
+        <div class="mealplan-recommendation">
+            <h1>Here is your curated meal plan</h1>
+            <p>Day 1:
+                <br><br>
+                Breakfast: Scrambled eggs with spinach and whole grain toast
+                Lunch: Grilled chicken salad with mixed greens, tomatoes, cucumbers, and balsamic vinaigrette
+                Dinner: Baked chicken breast with brown rice and steamed broccoli 
+                <br><br>
+                Day 2:
+                <br><br>
+                Breakfast: Whole grain toast with avocado and poached eggs
+                Lunch: Pasta salad with grilled chicken, cherry tomatoes, and pesto dressing
+                Dinner: Whole wheat spaghetti with tomato sauce and baked fish fillet
+                <br><br>
+                Day 3:
+                <br><br>
+                Breakfast: Greek yogurt with berries and honey
+                Lunch: Grilled fish tacos with coleslaw and avocado
+                Dinner: Stir-fried vegetables with tofu over brown rice
+                <br><br>
+                Day 4:
+                <br><br>
+                Breakfast: Oatmeal with sliced bananas and almonds
+                Lunch: Quinoa salad with roasted vegetables and feta cheese
+                Dinner: Vegetable stir-fry with tofu and whole wheat noodles
+                <br><br>
+                Day 5:
+                <br><br>
+                Breakfast: Smoothie with spinach, banana, almond milk, and protein powder
+                Lunch: Greek salad with mixed greens, olives, feta cheese, and grilled chicken
+                Dinner: Grilled salmon with roasted sweet potatoes and asparagus
+                <br><br>
+                Day 6:
+                <br><br>
+                Breakfast: Whole grain toast with peanut butter and sliced strawberries
+                Lunch: Lentil soup with whole grain bread
+                Dinner: Baked potato with diced ham, broccoli, and cheese
+                <br><br>
+                Day 7:
+                <br><br>
+                Breakfast: Veggie omelette with mushrooms, bell peppers, and onions
+                Lunch: Quinoa bowl with black beans, corn, avocado, and salsa
+                Dinner: Grilled steak with roasted Brussels sprouts and mashed potatoes</p>
+        </div>
     </div>
 </body>
 </html>
