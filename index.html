@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitBuddy</title>
-    <link rel="icon" href="fitbuddy-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/style.css">
     <style>
         /* Define dark theme */
         .dark-theme {
@@ -57,14 +56,14 @@
 <body>
     <div>
         <header style="background-color: white; color: #000000;">
-            <a href="index.html"><img src="fitbuddy-logo.png" alt="logo" class="logo"></a>
+            <a href="/"><img class="logo" src="{{ url_for('static', filename='../static/fitbuddy-logo.png') }}" /></a>
             <!-- Add a button to toggle theme -->
             
             <nav>
-                <a href="about.html">About us</a>
-                <a href="login.html">Login</a>
-                <a href="recommendation.html">Recommendation</a>
-                <a href="tracking.html">Tracking</a>
+                <a href="/about">About us</a>
+                <a href="/login">Login</a>
+                <a href="/recommendation">Recommendation</a>
+                <a href="/tracking">Tracking</a>
                
             </nav>
             <button id="theme-toggle"
